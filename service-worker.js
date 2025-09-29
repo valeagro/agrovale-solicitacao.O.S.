@@ -3,8 +3,8 @@ const urlsToCache = [
   './',
   './index.html',
   // Ícones renomeados
-  './agrovale192.png',
   './agrovale512.png',
+  './agrovale192.png',
   './manifest.json',
   './Logo-Site-Agrovale.png' // Mantendo o nome do logo do header
 ];
@@ -35,4 +35,5 @@ self.addEventListener('fetch', event => {
   );
 
 });
+
 
