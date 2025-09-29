@@ -1,4 +1,4 @@
-const CACHE_NAME = 'agrovvale-os-cache-v1';
+const CACHE_NAME = 'agrovvale-os-cache-v2';
 const urlsToCache = [
   './',
   './index.html',
@@ -35,3 +35,4 @@ self.addEventListener('fetch', event => {
   );
 
 });
+
